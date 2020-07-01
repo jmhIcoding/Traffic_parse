@@ -66,8 +66,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(MSBuildStartupDirectory)\..\src;$(MSBuildStartupDirectory)\..\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(MSBuildStartupDirectory)\..\Lib\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(MSBuildProjectDirectory)\..\..\src;$(MSBuildProjectDirectory)\..\..\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MSBuildProjectDirectory)\..\..\Lib\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>C:\Program Files\OpenSSL-Win64\include;$(USERPROFILE)\Documents\apcap\Include;$(USERPROFILE)\Documents\apcap\src;$(IncludePath)</IncludePath>
